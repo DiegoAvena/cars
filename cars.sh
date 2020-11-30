@@ -24,7 +24,7 @@ do
 			read model
 			
 			carModel="$year:$make:$model"
-			echo $carModel >> My_old_cars
+			echo "$carModel" >> My_old_cars
 			;;
 		
 		2)
